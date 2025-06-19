@@ -1,6 +1,7 @@
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/atividade_vivencial_1.dir
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/desafio_m2_p1.dir
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/desafio_m2_p2.dir
+C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/desafio_m3_jogocores.dir
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/edit_cache.dir
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/rebuild_cache.dir
 C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/CMakeFiles/list_install_components.dir

@@ -113,6 +113,7 @@ desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/src/desafio_m2_p1.cpp.obj
 desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/common/glad.c.obj
 desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/build.make
 desafio_m2_p1.exe: _deps/glfw-build/src/libglfw3.a
+desafio_m2_p1.exe: _deps/glm-build/glm/libglm.a
 desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/linkLibs.rsp
 desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/objects1.rsp
 desafio_m2_p1.exe: CMakeFiles/desafio_m2_p1.dir/link.txt

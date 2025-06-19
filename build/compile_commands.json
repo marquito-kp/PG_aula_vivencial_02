@@ -36,6 +36,18 @@
   "output": "CMakeFiles/desafio_m2_p2.dir/common/glad.c.obj"
 },
 {
+  "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/desafio_m3_jogocores.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\desafio_m3_jogocores.dir\\src\\desafio_m3_jogocores.cpp.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\src\\desafio_m3_jogocores.cpp\"",
+  "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/src/desafio_m3_jogocores.cpp",
+  "output": "CMakeFiles/desafio_m3_jogocores.dir/src/desafio_m3_jogocores.cpp.obj"
+},
+{
+  "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/desafio_m3_jogocores.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\desafio_m3_jogocores.dir\\common\\glad.c.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\common\\glad.c\"",
+  "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/common/glad.c",
+  "output": "CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.obj"
+},
+{
   "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/_deps/glfw-build/src",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=c99 -Wall -o CMakeFiles\\glfw.dir\\context.c.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\build\\_deps\\glfw-src\\src\\context.c\"",
   "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build/_deps/glfw-src/src/context.c",

@@ -200,6 +200,19 @@ desafio_m2_p2/fast:
 .PHONY : desafio_m2_p2/fast
 
 #=============================================================================
+# Target rules for targets named desafio_m3_jogocores
+
+# Build rule for target.
+desafio_m3_jogocores: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 desafio_m3_jogocores
+.PHONY : desafio_m3_jogocores
+
+# fast build rule for target.
+desafio_m3_jogocores/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/build
+.PHONY : desafio_m3_jogocores/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -259,6 +272,7 @@ common/glad.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.obj
 .PHONY : common/glad.c.obj
 
 common/glad.i: common/glad.c.i
@@ -269,6 +283,7 @@ common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.i
 .PHONY : common/glad.c.i
 
 common/glad.s: common/glad.c.s
@@ -279,6 +294,7 @@ common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.s
 .PHONY : common/glad.c.s
 
 src/atividade_vivencial_1.obj: src/atividade_vivencial_1.cpp.obj
@@ -353,6 +369,30 @@ src/desafio_m2_p2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/src/desafio_m2_p2.cpp.s
 .PHONY : src/desafio_m2_p2.cpp.s
 
+src/desafio_m3_jogocores.obj: src/desafio_m3_jogocores.cpp.obj
+.PHONY : src/desafio_m3_jogocores.obj
+
+# target to build an object file
+src/desafio_m3_jogocores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/src/desafio_m3_jogocores.cpp.obj
+.PHONY : src/desafio_m3_jogocores.cpp.obj
+
+src/desafio_m3_jogocores.i: src/desafio_m3_jogocores.cpp.i
+.PHONY : src/desafio_m3_jogocores.i
+
+# target to preprocess a source file
+src/desafio_m3_jogocores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/src/desafio_m3_jogocores.cpp.i
+.PHONY : src/desafio_m3_jogocores.cpp.i
+
+src/desafio_m3_jogocores.s: src/desafio_m3_jogocores.cpp.s
+.PHONY : src/desafio_m3_jogocores.s
+
+# target to generate assembly for a file
+src/desafio_m3_jogocores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/src/desafio_m3_jogocores.cpp.s
+.PHONY : src/desafio_m3_jogocores.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -370,6 +410,7 @@ help:
 	@echo ... atividade_vivencial_1
 	@echo ... desafio_m2_p1
 	@echo ... desafio_m2_p2
+	@echo ... desafio_m3_jogocores
 	@echo ... glfw
 	@echo ... glm
 	@echo ... common/glad.obj
@@ -384,6 +425,9 @@ help:
 	@echo ... src/desafio_m2_p2.obj
 	@echo ... src/desafio_m2_p2.i
 	@echo ... src/desafio_m2_p2.s
+	@echo ... src/desafio_m3_jogocores.obj
+	@echo ... src/desafio_m3_jogocores.i
+	@echo ... src/desafio_m3_jogocores.s
 .PHONY : help
 
 

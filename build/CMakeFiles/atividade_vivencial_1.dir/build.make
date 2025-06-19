@@ -113,6 +113,7 @@ atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/src/atividade_vi
 atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/common/glad.c.obj
 atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/build.make
 atividade_vivencial_1.exe: _deps/glfw-build/src/libglfw3.a
+atividade_vivencial_1.exe: _deps/glm-build/glm/libglm.a
 atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/linkLibs.rsp
 atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/objects1.rsp
 atividade_vivencial_1.exe: CMakeFiles/atividade_vivencial_1.dir/link.txt

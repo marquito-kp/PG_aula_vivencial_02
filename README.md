@@ -1,13 +1,29 @@
-# Atividade Vivencial 1
---
-## Desafio
+# Jogo das cores - Módulo 3
 
-O objetivo do exercício é revisar o conteúdo sobre criação de buffers de geometria e envio de informações para o programa de shader. Para isso, você vai fazer uma versão modificada do Exercício 3 da resposta ao desafio, que atende os seguintes requisitos:
+Trabalho desenvolvido para a disciplina **Processamento gráfico**.
 
-1) Ao clicar na tela, você agora estará criando apenas 1 vértice
-2) A cada 3 vértices criados, você criará um triângulo
-3) Para cada novo triângulo criado, você deve usar uma cor nova.
---
-## Funcionalidades
+## 👥 Integrantes do Grupo
 
-Criação de Triângulos por Clique: A cada três cliques do botão esquerdo do mouse na janela, um novo triângulo é desenhado. Ciclo de Cores: Cada novo triângulo é desenhado com uma cor diferente de uma paleta predefinida. Esc (Escape) para Sair: Pressione a tecla ESC para fechar a janela da aplicação.
+- Marcos Krol pacheco
+
+## 🚀 Como executar 
+
+Exemplo:
+> Este programa foi feito em **linguagem C++** e pode ser compilado em uma IDE como o **VS Code** (com compilador instalado).
+> No seu computador (VS Code ou outro editor):
+> 1. Compile o código (por exemplo, com o comando: `cmake --build .`)
+> 2. Execute com: `./programa`
+
+## 💡 Sobre o Programa
+### Jogo das cores
+> O jogo simula uma matriz de 6 linhas e 8 colunas, possuindo ao total 48 quadrados que são preenchidos com cores escolhidas aleatoriamente pelo programa.
+> O jogo das cores envolve a escolha de uma cor e a partir desta cor será eliminado as cores semelhantes à escolhida. 
+>> O usuário ao executar o jogo das cores deve selecionar 1 cor dentro da matriz, a depender do quadrado e cor selecionado, o usuário perderá pontos:
+>>> 1º Ao eliminar mais de 1 cor, o usuário perde apenas 1 ponto.
+>>> 2º Ao eliminar somente 1 cor, o usuário perde 10 pontos.
+
+## 📌 Observações
+
+> - O código está no arquivo `desafio_m3_jogocores.cpp` (ou outro nome que usaram).
+> - Não é necessário instalar bibliotecas extras.
+> - A pontuação do jogo e número de cores eliminadas serão apresentadas no terminal.
