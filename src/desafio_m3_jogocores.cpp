@@ -93,6 +93,7 @@ int iColor = 0;
 // Criação de indice para identificar o quadrado selecionado
 // e depois fazer o cálculo de distancia de cores
 int iSelected = -1;
+int pontos = 100;
 
 // Criação da grid de quadrados
 Quad grid[ROWS][COLS];
@@ -188,7 +189,6 @@ int main()
 
 		if (iSelected > -1)
 		{
-			int pontos = 100;
 			// Tolerância de 20%
 			eliminarSimilares(0.2);
 		}
@@ -359,7 +359,7 @@ GLuint createQuad()
 // ou seja, irá selecionar uma cor padrão (C) e ira compara-la no for com O, utilizando
 // a formula de distância de cores
 
-int pontos = 100;
+
 
 void eliminarSimilares(float tolerancia)
 {

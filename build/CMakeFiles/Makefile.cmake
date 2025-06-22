@@ -100,6 +100,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/desafio_m2_p1.dir/DependInfo.cmake"
   "CMakeFiles/desafio_m2_p2.dir/DependInfo.cmake"
   "CMakeFiles/desafio_m3_jogocores.dir/DependInfo.cmake"
+  "CMakeFiles/desafio_m4_sprites.dir/DependInfo.cmake"
   "_deps/glfw-build/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/glfw-build/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

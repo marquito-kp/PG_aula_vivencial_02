@@ -48,6 +48,7 @@ set(EXERCISES
     desafio_m2_p1
     desafio_m2_p2
     desafio_m3_jogocores
+    desafio_m4_sprites
 )
 
 add_compile_options(-Wno-pragmas)
