@@ -1,4 +1,4 @@
-# Jogo das cores - Módulo 4
+# Mapeando Texturas - Módulo 4
 
 Trabalho desenvolvido para a disciplina **Processamento gráfico**.
 
@@ -16,7 +16,7 @@ Exemplo:
 
 ## 💡 Sobre o Programa
 ### Sprites
-.
+> O desafio deste módulo foi de mapeamento de texturas. Desta forma, utilizando background e sprite do site https://craftpix.net/freebies/, foi possível instancia-los para renderiza-los na tela do computador, sendo possível manipular os seus vertices para posiciona-los na tela.
 
 ## 📌 Observações
 
