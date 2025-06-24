@@ -13,6 +13,18 @@
 },
 {
   "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/atividade_vivencial_2.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\atividade_vivencial_2.dir\\src\\atividade_vivencial_2.cpp.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\src\\atividade_vivencial_2.cpp\"",
+  "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/src/atividade_vivencial_2.cpp",
+  "output": "CMakeFiles/atividade_vivencial_2.dir/src/atividade_vivencial_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/atividade_vivencial_2.dir/includes_C.rsp -g -Wno-pragmas -o CMakeFiles\\atividade_vivencial_2.dir\\common\\glad.c.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\common\\glad.c\"",
+  "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/common/glad.c",
+  "output": "CMakeFiles/atividade_vivencial_2.dir/common/glad.c.obj"
+},
+{
+  "directory": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/desafio_m2_p1.dir/includes_CXX.rsp -g -std=gnu++17 -Wno-pragmas -o CMakeFiles\\desafio_m2_p1.dir\\src\\desafio_m2_p1.cpp.obj -c \"C:\\Users\\marco\\Documents\\Processamento Grafico\\CGCCHibrido\\src\\desafio_m2_p1.cpp\"",
   "file": "C:/Users/marco/Documents/Processamento Grafico/CGCCHibrido/src/desafio_m2_p1.cpp",
   "output": "CMakeFiles/desafio_m2_p1.dir/src/desafio_m2_p1.cpp.obj"

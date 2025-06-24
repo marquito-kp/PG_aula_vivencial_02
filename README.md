@@ -1,4 +1,4 @@
-# Mapeando Texturas - Módulo 4
+# Parallax Scrolling - Atividade Vivencial 2
 
 Trabalho desenvolvido para a disciplina **Processamento gráfico**.
 
@@ -15,10 +15,10 @@ Exemplo:
 > 2. Execute com: `./programa`
 
 ## 💡 Sobre o Programa
-### Sprites
-> O desafio deste módulo foi de mapeamento de texturas. Desta forma, utilizando background e sprite do site https://craftpix.net/freebies/, foi possível instancia-los para renderiza-los na tela do computador, sendo possível manipular os seus vertices para posiciona-los na tela.
+### Parallax Scrolling
+> O desafio da atividade vivencial 2 foi de escolher um sprite que se movimenta ao pressionar as setas, bem como o fundo do cenário irá se movimento ao passo que o personagem se movimenta. Cabe ressaltar que os objetos mais distantes irão se movimentar mais devagar e a medidada que eles forem mais próximo irão se movimentar mais rápido.
 
 ## 📌 Observações
 
-> - O código está no arquivo `desafio_m4_sprites.cpp`.
+> - O código está no arquivo `atividade_vivencial_2.cpp`.
 > - Não é necessário instalar bibliotecas extras.

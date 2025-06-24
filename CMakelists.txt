@@ -45,6 +45,7 @@ include_directories(${glm_SOURCE_DIR})
 # Lista de exemplos/exercícios podem ser colocados aqui também
 set(EXERCISES
     atividade_vivencial_1
+    atividade_vivencial_2
     desafio_m2_p1
     desafio_m2_p2
     desafio_m3_jogocores

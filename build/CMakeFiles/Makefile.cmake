@@ -97,6 +97,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/atividade_vivencial_1.dir/DependInfo.cmake"
+  "CMakeFiles/atividade_vivencial_2.dir/DependInfo.cmake"
   "CMakeFiles/desafio_m2_p1.dir/DependInfo.cmake"
   "CMakeFiles/desafio_m2_p2.dir/DependInfo.cmake"
   "CMakeFiles/desafio_m3_jogocores.dir/DependInfo.cmake"

@@ -174,6 +174,19 @@ atividade_vivencial_1/fast:
 .PHONY : atividade_vivencial_1/fast
 
 #=============================================================================
+# Target rules for targets named atividade_vivencial_2
+
+# Build rule for target.
+atividade_vivencial_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 atividade_vivencial_2
+.PHONY : atividade_vivencial_2
+
+# fast build rule for target.
+atividade_vivencial_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/build
+.PHONY : atividade_vivencial_2/fast
+
+#=============================================================================
 # Target rules for targets named desafio_m2_p1
 
 # Build rule for target.
@@ -283,6 +296,7 @@ common/glad.obj: common/glad.c.obj
 # target to build an object file
 common/glad.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/common/glad.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.obj
@@ -295,6 +309,7 @@ common/glad.i: common/glad.c.i
 # target to preprocess a source file
 common/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.i
@@ -307,6 +322,7 @@ common/glad.s: common/glad.c.s
 # target to generate assembly for a file
 common/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/common/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p1.dir\build.make CMakeFiles/desafio_m2_p1.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m2_p2.dir\build.make CMakeFiles/desafio_m2_p2.dir/common/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\desafio_m3_jogocores.dir\build.make CMakeFiles/desafio_m3_jogocores.dir/common/glad.c.s
@@ -336,6 +352,30 @@ src/atividade_vivencial_1.s: src/atividade_vivencial_1.cpp.s
 src/atividade_vivencial_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_1.dir\build.make CMakeFiles/atividade_vivencial_1.dir/src/atividade_vivencial_1.cpp.s
 .PHONY : src/atividade_vivencial_1.cpp.s
+
+src/atividade_vivencial_2.obj: src/atividade_vivencial_2.cpp.obj
+.PHONY : src/atividade_vivencial_2.obj
+
+# target to build an object file
+src/atividade_vivencial_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/src/atividade_vivencial_2.cpp.obj
+.PHONY : src/atividade_vivencial_2.cpp.obj
+
+src/atividade_vivencial_2.i: src/atividade_vivencial_2.cpp.i
+.PHONY : src/atividade_vivencial_2.i
+
+# target to preprocess a source file
+src/atividade_vivencial_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/src/atividade_vivencial_2.cpp.i
+.PHONY : src/atividade_vivencial_2.cpp.i
+
+src/atividade_vivencial_2.s: src/atividade_vivencial_2.cpp.s
+.PHONY : src/atividade_vivencial_2.s
+
+# target to generate assembly for a file
+src/atividade_vivencial_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\atividade_vivencial_2.dir\build.make CMakeFiles/atividade_vivencial_2.dir/src/atividade_vivencial_2.cpp.s
+.PHONY : src/atividade_vivencial_2.cpp.s
 
 src/desafio_m2_p1.obj: src/desafio_m2_p1.cpp.obj
 .PHONY : src/desafio_m2_p1.obj
@@ -448,6 +488,7 @@ help:
 	@echo ... uninstall
 	@echo ... update_mappings
 	@echo ... atividade_vivencial_1
+	@echo ... atividade_vivencial_2
 	@echo ... desafio_m2_p1
 	@echo ... desafio_m2_p2
 	@echo ... desafio_m3_jogocores
@@ -460,6 +501,9 @@ help:
 	@echo ... src/atividade_vivencial_1.obj
 	@echo ... src/atividade_vivencial_1.i
 	@echo ... src/atividade_vivencial_1.s
+	@echo ... src/atividade_vivencial_2.obj
+	@echo ... src/atividade_vivencial_2.i
+	@echo ... src/atividade_vivencial_2.s
 	@echo ... src/desafio_m2_p1.obj
 	@echo ... src/desafio_m2_p1.i
 	@echo ... src/desafio_m2_p1.s
